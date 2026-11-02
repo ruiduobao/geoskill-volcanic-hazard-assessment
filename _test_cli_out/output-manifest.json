@@ -2,8 +2,8 @@
   "skill": "volcanic-hazard-assessment",
   "skill_version": "1.0.0",
   "command": "volcanic-hazard-assessment --bbox 120 30 121 31 --synthetic --output-dir ./_test_cli_out --quiet",
-  "started_at": "2026-08-03T18:01:35.753251Z",
-  "finished_at": "2026-08-03T18:01:35.883996Z",
+  "started_at": "2026-11-02T15:57:40.452746Z",
+  "finished_at": "2026-11-02T15:57:40.703918Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -20,7 +20,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\activity_score.tif",
+      "path": "./_test_cli_out/activity_score.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -37,7 +37,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\activity_level.tif",
+      "path": "./_test_cli_out/activity_level.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -54,7 +54,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\volcano_params.json",
+      "path": "./_test_cli_out/volcano_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -81,7 +81,7 @@
     "alert_fraction": 0.025634765625
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "volcanic-hazard-assessment"
   },
   "error": null
